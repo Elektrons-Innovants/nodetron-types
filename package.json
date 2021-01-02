@@ -1,6 +1,6 @@
 {
   "name": "@nodetron/types",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.3",
   "description": "Library to share types between services",
   "keywords": [
     "Types",
@@ -8,11 +8,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.namec.fr/ssl/software/backend-node/libs/types.git"
+    "url": "https://github.com/EtienneSchmitz/nodetron-types"
   },
   "license": "MIT",
   "author": "NAMeC",
-  "main": "dist/**",
   "scripts": {
     "build": "rm -rf dist && tsc --build tsconfig.json",
     "commit": "git-cz",
