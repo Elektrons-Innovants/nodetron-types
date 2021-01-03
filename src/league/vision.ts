@@ -1,5 +1,3 @@
-import { Color } from '../utils/utils'
-
 /** *******************************************
  *                 Detection                  *
  ******************************************** */
@@ -116,6 +114,5 @@ export interface VisionGeometry {
 export interface Vision {
   detection: VisionDetectionFrame | null,
   geometry: VisionGeometry | null,
-  allyColor: Color,
 }
 
