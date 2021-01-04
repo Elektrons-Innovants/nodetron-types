@@ -29,16 +29,9 @@ export interface Field {
     length: number,
     width: number,
     boundaryWidth: number,
-    updated: boolean,
     center: Circle,
-    goal: {
-        ally: Goal,
-        opponent: Goal,
-    },
-    penalty: {
-        ally: Penalty,
-        opponent: Penalty,
-    },
+    goal: Goal,
+    penalty: Penalty,
 }
 
 /** ***************************
