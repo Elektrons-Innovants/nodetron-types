@@ -7,10 +7,10 @@ export interface MoveToPacket {
   target: {
     x: number,
     y: number,
+    orientation: number,
   },
-  orientation: number,
-  dribble: boolean,
-  power: number,
-  kick: boolean,
-  chipkick: boolean,
+  spin?: boolean,
+  power?: number,
+  kick?: boolean,
+  chipkick?: boolean,
 }

@@ -1,7 +1,7 @@
 export interface Control {
   id: number,
   yellow: boolean,
-  dribbler: boolean,
+  spin: boolean,
   kick: boolean,
   chipKick: boolean,
   power: number,
