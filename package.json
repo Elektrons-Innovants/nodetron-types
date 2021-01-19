@@ -1,6 +1,6 @@
 {
   "name": "@nodetron/types",
-  "version": "0.0.1-beta.10",
+  "version": "0.0.1-beta.11",
   "description": "Library to share types between services",
   "keywords": [
     "Types",
@@ -18,7 +18,7 @@
     "lint": "eslint --fix --ext .ts",
     "release": "standard-version",
     "release:beta": "standard-version --prerelease beta",
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
@@ -28,7 +28,7 @@
     }
   },
   "dependencies": {
-    "@nodetron/math": "^0.0.1-beta.2",
+    "@nodetron/math": "^0.0.1-beta.4",
     "fastest-validator": "^1.9.0",
     "moleculer": "^0.14.12"
   },
