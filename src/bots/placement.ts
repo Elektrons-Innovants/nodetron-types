@@ -7,7 +7,7 @@ export interface RobotPlacement {
     turnOn: boolean,
 }
 
-export interface Placement {
+export default interface PlacementMessage {
     ball?: {
         x: number,
         y: number,

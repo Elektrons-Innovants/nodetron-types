@@ -115,4 +115,3 @@ export interface Vision {
   detection: VisionDetectionFrame | null,
   geometry: VisionGeometry | null,
 }
-
