@@ -5,6 +5,7 @@ import { GameControllerEvent } from '../league/game-controller'
 import { Color } from '../utils/utils'
 
 import { Robot } from './robot'
+import Constant from './constant'
 
 /** ***************************
  *           Mobile           *
@@ -48,4 +49,5 @@ export interface Data {
     ball: Ball,
     color: Color,
     gameController: GameControllerEvent,
+    constant: Constant,
 }
