@@ -1,6 +1,8 @@
+import Point from '@nodetron/math/Point2D'
+import Circle from '@nodetron/math/Circle'
+
 import { GameControllerEvent } from '../league/game-controller'
 import { Color } from '../utils/utils'
-import { Circle, Vector2D } from '../utils/math'
 
 import { Robot } from './robot'
 
@@ -9,7 +11,7 @@ import { Robot } from './robot'
  **************************** */
 
 export interface Ball {
-    position: Vector2D,
+    position: Point,
 }
 
 /** ***************************
@@ -29,7 +31,7 @@ export interface Field {
     length: number,
     width: number,
     boundaryWidth: number,
-    center: Circle,
+    centerMark: Circle,
     goal: Goal,
     penalty: Penalty,
 }

@@ -1,4 +1,4 @@
-import { Vector2D } from '../utils/math'
+import Point from '@nodetron/math/Point2D'
 
 export interface Status {
     infrared: boolean,
@@ -10,7 +10,7 @@ export interface Status {
 
 export interface Robot {
     id: number,
-    position: Vector2D,
+    position: Point,
     orientation: number,
     status: Status,
 }
