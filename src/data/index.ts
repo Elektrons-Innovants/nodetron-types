@@ -17,12 +17,10 @@ export interface IRobot {
     position: IPoint,
     orientation: number,
     radius: number,
-    status: {
-        infrared: boolean,
-        kick: {
-            flat: boolean,
-            chip: boolean,
-        },
+    infrared: boolean,
+    kick: {
+        flat: boolean,
+        chip: boolean,
     },
 }
 
