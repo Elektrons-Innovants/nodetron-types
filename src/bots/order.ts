@@ -1,4 +1,4 @@
-export default interface OrderMessage {
+export interface OrderMessage {
     id: number,
     yellow: boolean,
     spin: boolean,

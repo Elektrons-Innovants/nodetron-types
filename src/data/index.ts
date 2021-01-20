@@ -45,7 +45,7 @@ export interface IField {
  * Data packet sent by Data services.
  * It contains all filter data.
  */
-export default interface DataMessage {
+export interface DataMessage {
     field: IField,
     robots: {
         allies: Array<IRobot>,
