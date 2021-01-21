@@ -93,6 +93,7 @@
         "ignoreStrings": true,
         "ignoreTemplateLiterals": true
       }
-    ]
+    ],
+    "no-shadow": "off"
   }
 }

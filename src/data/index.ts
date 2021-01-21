@@ -1,7 +1,7 @@
 import { ICircle } from '@nodetron/math/Circle'
 import { IPoint } from '@nodetron/math/Point2D'
 
-import { Color } from '../utils/utils'
+import { Kick, Color } from './enum'
 
 /** ***************************
  *           Mobile           *
@@ -18,10 +18,7 @@ export interface IRobot {
     orientation: number,
     radius: number,
     infrared: boolean,
-    kick: {
-        flat: boolean,
-        chip: boolean,
-    },
+    kick: Kick,
 }
 
 /** ***************************
