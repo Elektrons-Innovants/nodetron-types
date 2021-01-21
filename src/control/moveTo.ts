@@ -1,3 +1,5 @@
+import { Kick } from '../data/enum'
+
 export interface MoveToMessage {
     id: number,
     target: {
@@ -7,6 +9,5 @@ export interface MoveToMessage {
     orientation: number,
     spin: boolean,
     power: number,
-    kick: boolean,
-    chipkick: boolean,
+    kick: Kick,
 }

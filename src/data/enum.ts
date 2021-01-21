@@ -5,5 +5,6 @@ export enum Color {
 
 export enum Kick {
     CHIP = 'ChipKick',
-    FLAT = 'FlatKick'
+    FLAT = 'FlatKick',
+    NO = 'NoKick'
 }

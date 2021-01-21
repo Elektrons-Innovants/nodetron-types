@@ -1,9 +1,10 @@
+import { Kick } from '../data/enum'
+
 export interface OrderMessage {
     id: number,
     yellow: boolean,
     spin: boolean,
-    kick: boolean,
-    chipKick: boolean,
+    kick: Kick,
     power: number,
     velocity: {
       normal: number,
