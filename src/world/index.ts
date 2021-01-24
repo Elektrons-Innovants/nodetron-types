@@ -24,7 +24,7 @@ export interface AbstractRobot {
 /** ***************************
  *            Field           *
  **************************** */
-export interface AbstractFieldObject {
+export interface AbstractFieldPart {
     width: number,
     depth: number,
 }
@@ -34,8 +34,8 @@ export interface AbstractField {
     width: number,
     boundaryWidth: number,
     centerMark: AbstractCircle,
-    goal: AbstractFieldObject,
-    penalty: AbstractFieldObject,
+    goal: AbstractFieldPart,
+    penalty: AbstractFieldPart,
 }
 
 /**
