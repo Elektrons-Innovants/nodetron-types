@@ -1,4 +1,4 @@
-import { Kick } from '../data/enum'
+import { Kick } from '../enum'
 
 export interface OrderMessage {
     id: number,

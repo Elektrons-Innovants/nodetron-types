@@ -1,11 +1,10 @@
-import { Kick } from '../data/enum'
+import { AbstractPoint } from '@nodetron/math/Point2D'
+
+import { Kick } from '../enum'
 
 export interface MoveToMessage {
     id: number,
-    target: {
-        x: number,
-        y: number,
-    },
+    target: AbstractPoint,
     orientation: number,
     spin: boolean,
     power: number,
