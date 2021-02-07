@@ -2,6 +2,7 @@ import { AbstractCircle } from '@nodetron/math/Circle'
 import { AbstractPoint } from '@nodetron/math/Point2D'
 
 import { Kick, Color } from '../enum'
+import { GameControllerEvent } from '../network/game-controller'
 
 /** ***************************
  *           Mobile           *
@@ -50,4 +51,5 @@ export interface WorldMessage {
     },
     ball: AbstractBall,
     color: Color,
+    gameController: GameControllerEvent,
 }
