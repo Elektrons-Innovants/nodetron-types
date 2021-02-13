@@ -1,5 +1,5 @@
-import { AbstractCircle } from '@nodetron/math/Circle'
-import { AbstractPoint } from '@nodetron/math/Point2D'
+import { AbstractCircle } from '@nodetron/math/circle'
+import { AbstractPoint } from '@nodetron/math/point2D'
 
 import { Kick, Color } from '../enum'
 import { GameControllerEvent } from '../network/game-controller'

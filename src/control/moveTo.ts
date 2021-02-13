@@ -1,4 +1,4 @@
-import { AbstractPoint } from '@nodetron/math/Point2D'
+import { AbstractPoint } from '@nodetron/math/point2D'
 
 import { Kick } from '../enum'
 
